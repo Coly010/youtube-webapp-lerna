@@ -6,18 +6,18 @@
 /out-tsc
 
 /appengines/backend/dist
-/shell/dist
-/likes-app/dist
-/history-app/dist
-/watch-app/dist
-/backend/dist
-/common-ui/dist
+/apps/shell/dist
+/apps/likes-app/dist
+/apps/history-app/dist
+/apps/watch-app/dist
+/apps/backend/dist
+/apps/common-ui/dist
 
 # firebase cache
-/shell/.firebase
-/likes-app/.firebase
-/history-app/.firebase
-/watch-app/.firebase
+/apps/shell/.firebase
+/apps/likes-app/.firebase
+/apps/history-app/.firebase
+/apps/watch-app/.firebase
 
 # dependencies
 node_modules
