@@ -1,0 +1,46 @@
+[35mlikes-app:build: [0mcache hit, replaying output [2m6904ad0db24e1e4f[0m
+[35mlikes-app:build: [0m$ ng build
+[35mlikes-app:build: [0m- Generating browser application bundles (phase: setup)...
+[35mlikes-app:build: [0m✔ Browser application bundle generation complete.
+[35mlikes-app:build: [0m✔ Browser application bundle generation complete.
+[35mlikes-app:build: [0m- Copying assets...
+[35mlikes-app:build: [0m✔ Copying assets complete.
+[35mlikes-app:build: [0m- Generating index html...
+[35mlikes-app:build: [0m✔ Index html generation complete.
+[35mlikes-app:build: [0m
+[35mlikes-app:build: [0mInitial Chunk Files           | Names         |  Raw Size | Estimated Transfer Size
+[35mlikes-app:build: [0mpolyfills.9e2ebbe8b35845c7.js | polyfills     |  42.23 kB |                13.40 kB
+[35mlikes-app:build: [0mmain.abdf8d516a2b28bc.js      | main          |   9.59 kB |                 3.00 kB
+[35mlikes-app:build: [0mremoteEntry.js                | likes-app     |   7.96 kB |                 3.07 kB
+[35mlikes-app:build: [0mstyles.ef46db3751d8e999.css   | styles        |   0 bytes |                       -
+[35mlikes-app:build: [0m
+[35mlikes-app:build: [0m| Initial Total |  59.78 kB |                19.47 kB
+[35mlikes-app:build: [0m
+[35mlikes-app:build: [0mLazy Chunk Files              | Names         |  Raw Size | Estimated Transfer Size
+[35mlikes-app:build: [0m650.e079bfadf5394752.js       | -             | 177.51 kB |                50.48 kB
+[35mlikes-app:build: [0m511.130e9809a7f79a09.js       | -             |  70.48 kB |                17.09 kB
+[35mlikes-app:build: [0m793.4d1cc023357d94ab.js       | -             |  70.48 kB |                17.07 kB
+[35mlikes-app:build: [0m236.74457f84ff44825a.js       | -             |  64.59 kB |                18.36 kB
+[35mlikes-app:build: [0m746.b6096aed898ff1b9.js       | -             |  62.74 kB |                16.86 kB
+[35mlikes-app:build: [0m516.0bfeb2a80c521f42.js       | -             |  62.74 kB |                16.84 kB
+[35mlikes-app:build: [0m559.2b0edb11eb342c05.js       | -             |  55.58 kB |                15.64 kB
+[35mlikes-app:build: [0m895.d40a025d4e156f75.js       | -             |  55.40 kB |                13.91 kB
+[35mlikes-app:build: [0m181.8b344433d812b26b.js       | -             |  55.40 kB |                13.89 kB
+[35mlikes-app:build: [0m822.d20846121e5cc921.js       | bootstrap     |  33.66 kB |                 8.53 kB
+[35mlikes-app:build: [0m756.09d32402af72455a.js       | -             |  28.87 kB |                 7.33 kB
+[35mlikes-app:build: [0m637.824dd3cd07e3bc5e.js       | -             |  28.59 kB |                 7.23 kB
+[35mlikes-app:build: [0m481.3e29f8e073be198f.js       | -             |  21.84 kB |                 6.17 kB
+[35mlikes-app:build: [0m255.7a37d78545c837de.js       | -             |  21.83 kB |                 6.18 kB
+[35mlikes-app:build: [0m471.47c37f23a5791993.js       | -             |  18.67 kB |                 4.99 kB
+[35mlikes-app:build: [0m529.d1944cce5b114f77.js       | -             |  18.67 kB |                 4.99 kB
+[35mlikes-app:build: [0m321.c951316e1a2c4827.js       | -             |  15.72 kB |                 4.55 kB
+[35mlikes-app:build: [0m555.2ab5d0df97a4efb0.js       | -             |  15.72 kB |                 4.54 kB
+[35mlikes-app:build: [0m762.4b2970a854b1412d.js       | -             |  13.41 kB |                 4.00 kB
+[35mlikes-app:build: [0m392.0871376ae5cce558.js       | -             |  13.40 kB |                 4.00 kB
+[35mlikes-app:build: [0m340.8ba508d5348657f7.js       | -             |   4.10 kB |                 1.05 kB
+[35mlikes-app:build: [0m729.ca135372facc2062.js       | -             |   1.72 kB |               708 bytes
+[35mlikes-app:build: [0m850.ac6450ab7b4e20e1.js       | -             |   1.71 kB |               699 bytes
+[35mlikes-app:build: [0m248.2d7aba2e008d1086.js       | -             | 163 bytes |               128 bytes
+[35mlikes-app:build: [0m569.0d1a7f49b9fbb656.js       | -             | 159 bytes |               125 bytes
+[35mlikes-app:build: [0m
+[35mlikes-app:build: [0mBuild at: 2022-03-05T14:52:41.396Z - Hash: ccbb0d90062df191 - Time: 196664ms

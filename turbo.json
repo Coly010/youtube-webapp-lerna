@@ -7,7 +7,12 @@
       "lint": {
         "outputs": []
       },
-      "dev": {
+      "serve": {
+        "cache": false,
+        "dependsOn": ["^build"]
+      },
+      "bootstrap": {},
+      "clean": {
         "cache": false
       }
     }

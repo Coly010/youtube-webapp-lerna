@@ -1,0 +1,52 @@
+[34mwatch-app:build: [0mcache hit, replaying output [2mde112704940f5035[0m
+[34mwatch-app:build: [0m$ ng build
+[34mwatch-app:build: [0m- Generating browser application bundles (phase: setup)...
+[34mwatch-app:build: [0m✔ Browser application bundle generation complete.
+[34mwatch-app:build: [0m✔ Browser application bundle generation complete.
+[34mwatch-app:build: [0m- Copying assets...
+[34mwatch-app:build: [0m✔ Copying assets complete.
+[34mwatch-app:build: [0m- Generating index html...
+[34mwatch-app:build: [0m✔ Index html generation complete.
+[34mwatch-app:build: [0m
+[34mwatch-app:build: [0mInitial Chunk Files           | Names         |  Raw Size | Estimated Transfer Size
+[34mwatch-app:build: [0mpolyfills.c2f9fb77668a648d.js | polyfills     |  42.89 kB |                13.56 kB
+[34mwatch-app:build: [0mmain.b3996f98554bb8a5.js      | main          |  10.60 kB |                 3.19 kB
+[34mwatch-app:build: [0mremoteEntry.js                | watch-app     |   8.75 kB |                 3.26 kB
+[34mwatch-app:build: [0mstyles.ef46db3751d8e999.css   | styles        |   0 bytes |                       -
+[34mwatch-app:build: [0m
+[34mwatch-app:build: [0m| Initial Total |  62.24 kB |                20.01 kB
+[34mwatch-app:build: [0m
+[34mwatch-app:build: [0mLazy Chunk Files              | Names         |  Raw Size | Estimated Transfer Size
+[34mwatch-app:build: [0m650.b5e89c51ae2ada25.js       | -             | 177.51 kB |                50.52 kB
+[34mwatch-app:build: [0m938.509a184e932f7ff3.js       | -             |  75.88 kB |                17.20 kB
+[34mwatch-app:build: [0m619.663491703422d411.js       | -             |  75.88 kB |                17.20 kB
+[34mwatch-app:build: [0m46.8f85728118505fd9.js        | -             |  72.35 kB |                16.62 kB
+[34mwatch-app:build: [0m52.6ae0e07e93759634.js        | -             |  72.34 kB |                16.61 kB
+[34mwatch-app:build: [0m793.0fb18235d9e2dce6.js       | -             |  70.48 kB |                17.08 kB
+[34mwatch-app:build: [0m511.b62c072c49c99a7a.js       | -             |  70.48 kB |                17.07 kB
+[34mwatch-app:build: [0m236.2ab346b0bb54a1d7.js       | -             |  64.59 kB |                18.36 kB
+[34mwatch-app:build: [0m746.8fa5c3ee85162fc7.js       | -             |  62.74 kB |                16.85 kB
+[34mwatch-app:build: [0m516.3f51bc0e4595ab55.js       | -             |  62.74 kB |                16.83 kB
+[34mwatch-app:build: [0m559.56e99030b804e1a5.js       | -             |  55.58 kB |                15.68 kB
+[34mwatch-app:build: [0m895.e4dec522d3f7c8ff.js       | -             |  55.40 kB |                13.89 kB
+[34mwatch-app:build: [0m181.e570b0f0c7bc908a.js       | -             |  55.40 kB |                13.92 kB
+[34mwatch-app:build: [0m873.7d9bf3ebd268ebd2.js       | -             |  44.62 kB |                11.17 kB
+[34mwatch-app:build: [0m317.fc38fbb08f3dfcff.js       | -             |  44.22 kB |                11.04 kB
+[34mwatch-app:build: [0m4.519c33cef45a6883.js         | bootstrap     |  41.30 kB |                 9.82 kB
+[34mwatch-app:build: [0m859.6384c7f05f2f6aac.js       | -             |  36.55 kB |                 6.80 kB
+[34mwatch-app:build: [0m481.d2c0645e73c26e45.js       | -             |  21.84 kB |                 6.17 kB
+[34mwatch-app:build: [0m255.52a20fb32ee03525.js       | -             |  21.83 kB |                 6.17 kB
+[34mwatch-app:build: [0m471.255417364c7baf73.js       | -             |  18.67 kB |                 4.99 kB
+[34mwatch-app:build: [0m529.ef471ac603864e7e.js       | -             |  18.67 kB |                 4.99 kB
+[34mwatch-app:build: [0m101.5bd759d5b4ce00fc.js       | -             |  18.42 kB |                 2.22 kB
+[34mwatch-app:build: [0m555.eba0d435ccb12e79.js       | -             |  15.72 kB |                 4.55 kB
+[34mwatch-app:build: [0m321.c87df37bdb13c1b7.js       | -             |  15.72 kB |                 4.54 kB
+[34mwatch-app:build: [0m392.e727679e26fce621.js       | -             |  13.53 kB |                 4.04 kB
+[34mwatch-app:build: [0m762.7ca8b54af5b720d9.js       | -             |  13.52 kB |                 4.05 kB
+[34mwatch-app:build: [0m340.101432cdf2da00ab.js       | -             |   4.10 kB |                 1.05 kB
+[34mwatch-app:build: [0m850.2fd1c8e56b11efef.js       | -             |   1.84 kB |               738 bytes
+[34mwatch-app:build: [0m729.1b29368fe2492ff4.js       | -             |   1.83 kB |               733 bytes
+[34mwatch-app:build: [0m248.6981092a52fc6af9.js       | -             | 163 bytes |               126 bytes
+[34mwatch-app:build: [0m569.7debb28bfc642358.js       | -             | 159 bytes |               123 bytes
+[34mwatch-app:build: [0m
+[34mwatch-app:build: [0mBuild at: 2022-03-05T14:52:45.254Z - Hash: d339df0bb67434c8 - Time: 199969ms

@@ -3,16 +3,19 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "bootstrap": "npm install --no-optional",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
-    "deploy": "firebase deploy"
+    "deploy": "firebase deploy",
+    "clean": "rm -rf .turbo && rm -rf .angular && rm -rf node_modules && rm -rf dist"
   },
   "private": true,
   "dependencies": {
+    "@youtube/common-ui": "*",
     "@angular-architects/module-federation": "14.0.1",
     "@angular/animations": "13.2.2",
     "@angular/cdk": "13.2.2",

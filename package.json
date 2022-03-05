@@ -14,9 +14,10 @@
   },
   "scripts": {
     "build": "turbo run build",
-    "start": "turbo run start --parallel",
+    "serve": "turbo run serve  --no-cache --parallel --continue",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
-  "packageManager": "npm@8.3.1"
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "bootstrap": "turbo run bootstrap",
+    "clean": "turbo run clean && rimraf('node_modules')"
+  }
 }
