@@ -1,5 +1,5 @@
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
-const deps = require('./package.json').dependencies;
+const deps = require('../../package.json').dependencies;
 const mf = require('@angular-architects/module-federation/webpack');
 const path = require('path');
 const share = mf.share;
@@ -60,7 +60,7 @@ module.exports = {
         '@angular/material/dialog': { requiredVersion: deps['@angular/material'] },
         '@angular/material/menu': { requiredVersion: deps['@angular/material'] },
         '@angular/material/snack-bar': { requiredVersion: deps['@angular/material'] },
-
+         '@youtube/common-ui': {requiredVersion: false},
         // Ngrx
         '@ngrx/store': { requiredVersion: deps['@ngrx/store'] },
         ...sharedMappings.getDescriptors(),

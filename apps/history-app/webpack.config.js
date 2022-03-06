@@ -1,5 +1,5 @@
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
-const deps = require('./package.json').dependencies;
+const deps = require('../../package.json').dependencies;
 
 const mf = require('@angular-architects/module-federation/webpack');
 const path = require('path');
