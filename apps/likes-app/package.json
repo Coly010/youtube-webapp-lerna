@@ -12,16 +12,10 @@
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
     "deploy": "firebase deploy",
-    "clean": "rimraf .turbo && rimraf .angular && rimraf node_modules && rimraf dist",
-    "bootstrap": "npm install --no-optional"
+    "clean": "rimraf .angular && rimraf node_modules && rimraf dist"
   },
   "private": true,
   "dependencies": {
-
-  },
-  "devDependencies": {
     "@youtube/common-ui": "*"
-  },
-  "optionalDependencies": {
   }
 }

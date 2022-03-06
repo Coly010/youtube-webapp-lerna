@@ -9,8 +9,8 @@
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
-    "clean": "rimraf .turbo && rimraf node_modules && rimraf dist",
+    "serve": "nest start",
+    "clean": "rimraf node_modules && rimraf dist",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
@@ -20,14 +20,7 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json",
-    "bootstrap": "npm install --no-optional"
-  },
-  "dependencies": {
-  
-  },
-  "devDependencies": {
- 
+    "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "jest": {
     "moduleFileExtensions": [

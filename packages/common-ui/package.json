@@ -14,7 +14,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
-    "clean": "rimraf .turbo && rimraf .angular && rimraf node_modules && rimraf dist"
+    "clean": "rimraf .angular && rimraf node_modules && rimraf dist"
   },
   "private": true,
   "dependencies": {
