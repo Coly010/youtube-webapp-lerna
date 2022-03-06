@@ -8,17 +8,27 @@
       "lint": {
         "outputs": []
       },
+      "lint:fix": {
+        "outputs": []
+      },
       "serve": {
         "cache": false,
         "dependsOn": ["^build"],
         "outputs": ["dist/**"]
       },
-      "clean": {
+      "serve:prod": {
+        "cache": false,
+        "dependsOn": ["^build"],
+        "outputs": ["dist/**"]
+      },
+      "clean": {},
+      "pack-lib": {
         "cache": false
       },
-      "pack": {
+      "pack-lib:prod": {
         "cache": false
-      }
+      },
+      "deploy": {}
     }
   }
   

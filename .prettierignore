@@ -1,4 +1,6 @@
 # Add files here to ignore them from prettier formatting
 
-/**/dist
-/**/.angular
+./apps/**/dist
+./apps/**/.angular
+./packages/**/dist
+./packages/**/.angular

@@ -8,6 +8,15 @@
       "packages/*"
     ]
   },
+  "scripts": {
+    "serve": "concurrently \"turbo run pack-lib\"  \"turbo run serve --no-cache --continue\"",
+    "serve:prod": "concurrently \"turbo run pack-lib:prod\"  \"turbo run serve:prod --no-cache --continue\"",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "clean": "turbo run clean && rimraf node_modules --continue",
+    "deploy:fe": "npm run build && npm run deploy"
+  },
   "devDependencies": {
     "@angular-devkit/build-angular": "13.2.2",
     "@angular-eslint/builder": "13.1.0",
@@ -83,12 +92,5 @@
     "tslib": "^2.3.0",
     "youtube-search-without-api-key": "1.0.7",
     "zone.js": "~0.11.4"
-  },
-  "scripts": {
-    "build": "turbo run build",
-    "serve": "concurrently \"turbo run pack\" \" turbo run serve --no-cache --continue\"",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "clean": "turbo run clean && rimraf node_modules --continue"
   }
 }
