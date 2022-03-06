@@ -1,4 +1,5 @@
 {
+  "$schema": "https://turborepo.org/schema.json",
     "pipeline": {
       "build": {
         "dependsOn": ["^build"],
@@ -9,9 +10,9 @@
       },
       "serve": {
         "cache": false,
-        "dependsOn": ["^build"]
+        "dependsOn": ["^build"],
+        "outputs": ["dist/**"]
       },
-      "bootstrap": {},
       "clean": {
         "cache": false
       }

@@ -5,6 +5,8 @@
 /tmp
 /out-tsc
 
+/apps/**/.turbo
+/packages/**/.turbo
 /appengines/backend/dist
 /apps/shell/dist
 /apps/likes-app/dist

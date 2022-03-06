@@ -1,10 +1,13 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
+  "packageManager": "npm@8.5.3",
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ]
+  },
   "devDependencies": {
     "cross-port-killer": "1.4.0",
     "lerna": "4.0.0",
@@ -14,10 +17,9 @@
   },
   "scripts": {
     "build": "turbo run build",
-    "serve": "turbo run serve  --no-cache --parallel --continue",
+    "serve": "turbo run serve --no-cache --continue",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "bootstrap": "turbo run bootstrap",
-    "clean": "turbo run clean && rimraf('node_modules')"
+    "clean": "turbo run clean && rimraf node_modules --continue"
   }
 }

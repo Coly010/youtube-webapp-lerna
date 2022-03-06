@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "bootstrap": "npm install --no-optional",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
@@ -11,11 +10,11 @@
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
     "deploy": "firebase deploy",
-    "clean": "rm -rf .turbo && rm -rf .angular && rm -rf node_modules && rm -rf dist"
+    "clean": "rimraf .turbo && rimraf .angular && rimraf node_modules && rimraf dist",
+    "bootstrap": "npm install --no-optional"
   },
   "private": true,
   "dependencies": {
-    "@youtube/common-ui": "*",
     "@angular-architects/module-federation": "14.0.1",
     "@angular/animations": "13.2.2",
     "@angular/cdk": "13.2.2",
@@ -59,5 +58,8 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "prettier": "2.5.1",
     "typescript": "4.5.2"
+  },
+  "optionalDependencies": {
+    "@youtube/common-ui": "*"
   }
 }
